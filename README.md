@@ -14,8 +14,8 @@ This application is a UK Income Tax Calculator built using the Laravel framework
 ### Step 1: Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/laravel-tax-calculator.git
-cd laravel-tax-calculator
+git clone https://github.com/chitumirceaandrei/commify.git commify
+cd commify
 ```
 
 ### Step 2: Set Up Environment Variables
