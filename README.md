@@ -42,12 +42,7 @@ From root folder run the following command to build and start the Docker contain
 docker compose -f deploy/docker-compose.yml --env-file ./.env up --build
 ```
 
-### Step 4: Run Migrations and Seeder
-You have two options to do this:
-1. Directly from docker desktop container - run `php artisan migrate` and `php artisan db:seed`
-2. From root folder run `docker exec -t laravelapp php artisan migrate` and `docker exec -t laravelapp php artisan seed`
-
-### Step 5: Run the Tests
+### Step 4: Run the Tests
 You have two options to do this:
 1. Directly from docker desktop container - run `php artisan test`
 2. From root folder run `docker exec -t laravelapp php artisan test`
